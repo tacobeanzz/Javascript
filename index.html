@@ -2,16 +2,31 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
 </head>
 
 <body>
-  <h1>hello world</h1>
-  <p>test from laptop</p>
-  <script src="index.js"></script>
+    <form>
+        Value 1: <input type="text" id="value1">
+        Value 2: <input type="text" id="value2">
+        Operator:
+        <select id="operator">
+            <option value="add">add</option>
+            <option value="minus">minus</option>
+            <option value="divide">divide</option>
+            <option value="multiply">multiply</option>
+        </select>
+        <button type="button" onclick="calc()">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+
+
 </body>
+<script src=" index.js">
+</script>
 
 </html>
